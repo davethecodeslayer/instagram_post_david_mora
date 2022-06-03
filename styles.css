@@ -1,0 +1,79 @@
+* {
+    /*border: 1px dashed red;*/
+}
+
+body {
+    background: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin: 0;
+}
+
+.post {
+    height: 610px;
+    width: 400px;
+    background: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 4px 0px 4px;
+    margin-bottom: 0;
+    margin-top: 0;
+    /*height: 20px;*/
+}
+
+.post-header-right {
+    justify-content: end;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+    object-fit: fill;
+
+}
+
+a {
+    color: gray;
+}
+
+a:hover { color: black;}
+a:active { color: lightblue;}
+
+.post-footer-text > p {
+    text-align: justify;
+}
+
+.post-footer {
+    padding-left: 5px;
+    padding-right: 5px;
+    align-items: center;
+}
+
+.post-footer-interactions {
+    display: flex;
+    padding: 0;
+}
+
+.fa-solid-fa-bookmark {
+    float: right;
+}
+
+i {
+    font-size: 22px;
+}
+
+.post-footer-icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+p {
+    border-bottom: 0px;
+    margin: 0;
+    padding-top: 5px;
+}
